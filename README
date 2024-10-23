@@ -1,0 +1,48 @@
+# README
+
+## CONTENTS OF THIS FILE
+   
+* Introduction
+* Requirements
+* Recommended
+* Configuration
+
+## INTRODUCTION
+NOTA: "
+  El mobile scraping, al igual que el web scraping, puede ser legal o ilegal dependiendo de varios factores, incluyendo las leyes locales, las políticas de la aplicación que estás scrapeando y el uso que le des a los datos"
+
+Este proyecto nos permite realizar test automatizados basados en BDD en aplicaciones,
+se realizo la prueba con la aplicacion de alquiler.com para un flujo complejo
+de la Reserva de un cliente validando los precios de la reserva.
+
+usando el Webdriver de selenium
+
+* Para este proyecto se utilizaron las tecnologias como:
+
+  BEHAVE
+
+  "Behave es un marco BDD de código abierto basado en Python para escribir pruebas en un estilo de       lenguaje natural."
+  
+    https://behave.readthedocs.io/en/latest/api/
+
+  SELENIUM
+    https://selenium-python.readthedocs.io/
+
+  APPIUM
+    https://appium.io/docs/en/2.0/
+
+  PYTHON
+    https://www.python.org/
+
+
+## RECOMMENDED
+
+* correr primero el servidor appium
+* tener instalado nuestro appium inspector
+* tener un celular en modo desarrollador o un emulador
+
+( en este caso yo utilize un celular en modo desarrollador, conectado por USB )
+
+## RUN PROYECT
+ *  pip install -r Requirements
+ * behave
